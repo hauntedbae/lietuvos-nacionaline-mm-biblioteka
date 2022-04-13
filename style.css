@@ -23,9 +23,11 @@ a {
 }
 
 header img {
+    display: block;
     width: 300px;
     background-color: white;
-    padding-left: 50px;
+    /*padding-left: 50px;*/
+    margin: 0 auto;
 }
 
 h1 {
@@ -45,10 +47,15 @@ h1 {
     color: grey;
 }
 
-table, th {
+
+tr, td, th {
     border-bottom:1px solid rgb(172, 172, 172);
-    padding-bottom: 16px;
-    margin-left: 20px;
+    padding: 16px;
+}
+
+.info {
+    width: 100%;
+    padding: 16px;
 }
 
 
